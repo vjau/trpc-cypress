@@ -1,0 +1,6 @@
+import { createTRPCProxyClient } from "@trpc/client";
+describe("template spec", () => {
+  it("passes", () => {
+    cy.visit("https://example.cypress.io");
+  });
+});
